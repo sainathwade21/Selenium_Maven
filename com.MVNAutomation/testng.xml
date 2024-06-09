@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BatchExecution.FacebookSignup"/>
+      <class name="BatchExecution.DemoWebShop_E2E"/>
+      <class name="BatchExecution.PaytmFlightBook1"/>
+      <class name="BatchExecution.FB_Login_KeyboardAction"/>
+      <class name="BatchExecution.FlipkartIphone"/>
+      <class name="BatchExecution.FacebookLocator"/>
+      <class name="BatchExecution.MyntraProducts"/>
+      <class name="BatchExecution.FlipkartIphone1"/>
+      <class name="BatchExecution.NetflixLoginPage"/>
+      <class name="BatchExecution.demoWebShop"/>
+      <class name="BatchExecution.ZomatoBlinkIt"/>
+      <class name="BatchExecution.DemoWebShopLogin"/>
+      <class name="BatchExecution.AmazonLogin"/>
+      <class name="BatchExecution.paytm"/>
+      <class name="BatchExecution.InstagramLogin"/>
+      <class name="BatchExecution.ZomatoWindowHandling"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BatchExecution.ZomatoWindowHandling">
+        <methods>
+          <include name="script"/>
+        </methods>
+      </class> <!-- BatchExecution.ZomatoWindowHandling -->
+      <class name="BatchExecution.DemoWebShop_E2E">
+        <methods>
+          <include name="script"/>
+        </methods>
+      </class> <!-- BatchExecution.DemoWebShop_E2E -->
+      <class name="BatchExecution.InstagramLogin">
+        <methods>
+          <include name="script"/>
+        </methods>
+      </class> <!-- BatchExecution.InstagramLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

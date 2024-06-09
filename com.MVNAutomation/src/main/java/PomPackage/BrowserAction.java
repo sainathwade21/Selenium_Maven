@@ -1,4 +1,4 @@
-package KeywordDrivenFramework;
+package PomPackage;
 
 import java.io.IOException;
 
@@ -22,7 +22,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserAction extends GetDataFromFiles {
 	
-	WebDriver driver;
+	public WebDriver driver;
+	String createdUser;
 	
 	public WebDriver launchBrowser() throws IOException
 	{

@@ -1,4 +1,4 @@
-package KeywordDrivenFramework;
+package PomPackage;
 
 import java.io.FileInputStream;
 
